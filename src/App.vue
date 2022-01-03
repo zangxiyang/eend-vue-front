@@ -6,7 +6,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <div class="flex justify-center">
+    <img alt="Vue logo" src="./assets/logo.png" />
+  </div>
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
 </template>
 

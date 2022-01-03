@@ -1,0 +1,26 @@
+/**
+ * @作者: Seale
+ * @时间: 2022/1/3
+ * @版本: V1.0
+ * @声明: 复用样式请和作者联系
+ * @网站: https://www.imsle.com
+ * @说明: 基本的样式引入
+*/
+/*! @import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*重置浏览器默认样式*/
+*{
+  padding: 0;
+  margin: 0;
+}
+.base{
+  @apply text-base font-medium;
+}
+::selection {
+  background: rgba(139, 144, 255, 0.87);
+  color: white;
+}
