@@ -8,7 +8,9 @@ export default defineConfig({
     plugins: [
         vue(),
     ],
-    alias: [
-        {find: '@', replacement: path.resolve(__dirname, 'src')}
-    ]
+    resolve:{
+        alias:[
+            {find: '@', replacement: path.resolve(__dirname,'src')}
+        ]
+    },
 })
