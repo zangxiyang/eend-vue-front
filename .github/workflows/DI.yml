@@ -46,7 +46,7 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /www/wwwroot/pro.imsle.com
+            cd /www/wwwroot/www.eendtech.com
             echo '清空当前版本'
             rm -rf *
             echo '清空成功'
@@ -58,6 +58,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           REMOTE_USER: ${{ secrets.USER }}
           REMOTE_PORT: ${{ secrets.PORT }}
-          TARGET: /www/wwwroot/pro.imsle.com
+          TARGET: /www/wwwroot/www.eendtech.com
           SOURCE: dist/
       - run: echo '部署成功'
