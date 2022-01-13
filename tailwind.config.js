@@ -3,6 +3,9 @@ module.exports = {
   content: [],
   theme: {
     extend: {},
+    minHeight:{
+      '24': '6rem'
+    }
   },
   plugins: [],
 }

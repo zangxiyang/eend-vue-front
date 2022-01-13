@@ -1,6 +1,7 @@
 <template>
-  <div class="">首页</div>
-
+<div class="eend-container mt-24">
+  <slot/>
+</div>
 </template>
 
 <script setup lang="ts">

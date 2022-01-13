@@ -1,15 +1,19 @@
 <template>
+  <eend-nav-bar/>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <div class="flex justify-center">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <img alt="Vue logo" src="@/assets/img/LOGO.png" />
   </div>
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
 
   <router-view/>
 </template>
 
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
 
+import EendNavBar from "@/components/EendNavBar/EendNavBar.vue";
 </script>
 
 
@@ -18,8 +22,6 @@ import HelloWorld from './components/HelloWorld.vue'
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: #eeeeee;
 }
 </style>
