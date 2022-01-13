@@ -3,9 +3,18 @@ module.exports = {
   content: [],
   theme: {
     extend: {},
+    height:{
+      'banner': '370px'
+    },
     minHeight:{
       '24': '6rem'
-    }
+    },
+    minWidth:{
+      '1300': '1300px'
+    },
+    zIndex:{
+      '1': '1'
+    },
   },
   plugins: [],
 }

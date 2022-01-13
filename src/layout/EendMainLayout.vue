@@ -1,7 +1,9 @@
 <template>
-<div class="eend-container mt-24">
-  <slot/>
-</div>
+<main class="mt-24">
+  <div class="eend-container">
+    <slot/>
+  </div>
+</main>
 </template>
 
 <script setup lang="ts">

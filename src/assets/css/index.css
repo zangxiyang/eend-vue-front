@@ -16,6 +16,7 @@
 /*重置浏览器默认样式*/
 html{
   font-size: 10px;
+  background-color: #eee;
 }
 *{
   padding: 0;
