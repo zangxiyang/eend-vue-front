@@ -16,7 +16,7 @@
 /*重置浏览器默认样式*/
 html{
   font-size: 10px;
-  background-color: #eee;
+  background-color: #fff;
 }
 *{
   padding: 0;
@@ -28,4 +28,11 @@ html{
 ::selection {
   background: rgba(139, 144, 255, 0.87);
   color: white;
+}
+/*iconfont svg default class*/
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }

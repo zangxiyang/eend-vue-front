@@ -19,7 +19,7 @@
 
         </div>
         <div class="eend-nav-right h-24 flex flex-1 items-center justify-end pr-7">
-          <router-link v-for="item in navBarConfig" :key="item.title" :to="item.link">
+          <router-link class="ml-6" v-for="item in navBarConfig" :key="item.title" :to="item.link">
             <a-button size="small" type="text" style="color: #676767">
               {{ item.title }}
             </a-button>
