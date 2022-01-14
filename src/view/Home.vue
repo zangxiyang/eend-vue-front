@@ -27,7 +27,7 @@
       transform: translateX(-50%);
       width: 1300px;
       height: 100%;
-      background: url('../src/assets/img/banner.png') 100%/contain no-repeat;
+      background: url('../assets/img/banner.png') 100%/contain no-repeat;
     }
   }
   .banner-font{
