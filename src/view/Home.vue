@@ -72,6 +72,29 @@
       </eend-card>
     </div>
   </home-item>
+
+  <div class="bottom-other overflow-hidden">
+    <div class="eend-container h-banner flex items-center justify-center">
+      <div class="container-content">
+        <div class="title">
+          <h2 class="text-6xl font-medium select-none">
+            <span class="pl-2 pr-2 text-white font-bold" style="background-color: #0050f0">即将到来</span>
+            <span class="relative">的自有产品
+            <div class="title-dots inline-block w-3 h-3 bg-indigo-500 absolute bottom-4 -right-4"></div>
+            </span>
+          </h2>
+        </div>
+        <div class="instruction flex items-center pt-14 text-4xl">
+          <svg t="1642332052702" class="icon mr-4" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13272" width="200" height="200"><path d="M232.533333 345.6l324.266667 320c17.066667 17.066667 17.066667 42.666667 0 59.733333l-117.333333 115.2c-17.066667 17.066667-42.666667 17.066667-59.733334 0l-324.266666-320c-17.066667-17.066667-17.066667-42.666667 0-59.733333l117.333333-115.2c14.933333-17.066667 42.666667-17.066667 59.733333 0z" fill="#185ABD" p-id="13273"></path><path d="M968.533333 315.733333L439.466667 840.533333c-17.066667 17.066667-42.666667 17.066667-59.733334 0L262.4 725.333333c-17.066667-17.066667-17.066667-42.666667 0-59.733333L791.466667 140.8c17.066667-17.066667 42.666667-17.066667 59.733333 0l117.333333 115.2c17.066667 17.066667 17.066667 42.666667 0 59.733333z" fill="#41A5EE" p-id="13274"></path></svg>
+          <p>独立小众，深度合作，互利互惠</p>
+        </div>
+        <div class="button-group flex items-center justify-center mt-10">
+          <a-button type="primary" size="large">加入我们</a-button>
+          <a-button type="outline" class="ml-10" size="large">联系我们</a-button>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -82,5 +105,12 @@ import EendCard from "@/components/EendCard/EendCard.vue";
 </script>
 
 <style lang="scss" scoped>
-
+.bottom-other{
+  background-color: #f8fbff;
+  ::v-deep .arco-btn-size-large{
+      height: 50px;
+      padding: 0 50px;
+      font-size: 18px;
+  }
+}
 </style>
