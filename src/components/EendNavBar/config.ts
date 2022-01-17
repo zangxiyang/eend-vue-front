@@ -17,7 +17,7 @@ export const navBarConfig: NavBarConfig[] = [
     {
         title: "首页",
         link: "/"
-    },
+    }/*,
     {
         title: "开放平台",
         link: "/open"
@@ -25,5 +25,5 @@ export const navBarConfig: NavBarConfig[] = [
     {
         title: '加入我们',
         link: '/join'
-    }
+    }*/
 ]
