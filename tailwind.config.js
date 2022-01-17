@@ -12,6 +12,9 @@ module.exports = {
       minWidth:{
         '1300': '1300px'
       },
+      colors:{
+        'footer-gray': '#f7f8fa'
+      }
     },
     zIndex:{
       '1': '1',

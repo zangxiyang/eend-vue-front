@@ -1,13 +1,16 @@
 <template>
   <eend-nav-bar/>
-
-  <router-view/>
+  <main>
+    <router-view/>
+  </main>
+  <eend-footer/>
 </template>
 
 <script setup lang="ts">
 
 import EendNavBar from "@/components/EendNavBar/EendNavBar.vue";
 import EendMainLayout from "@/layout/EendMainLayout.vue";
+import EendFooter from "@/components/EendFooter/EendFooter.vue";
 </script>
 
 
