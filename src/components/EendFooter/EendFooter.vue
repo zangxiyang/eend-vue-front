@@ -1,7 +1,7 @@
 <template>
   <footer class="eend-footer bg-footer-gray text-gray-500">
     <div class="eend-container pt-14 pb-14">
-      <div class="info-item flex items-center">
+      <div class="info-item flex items-center justify-center">
       <span class="info flex items-center">
         <span class="ml-2"><icon-copyright style="font-size: 14px"/><span class="ml-1">Copyright</span> 2016-{{
             nowYear
