@@ -12,27 +12,42 @@
 @tailwind utilities;
 
 
-
 /*重置浏览器默认样式*/
-html{
-  font-size: 10px;
-  background-color: #fff;
+html {
+    font-size: 10px;
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
-*{
-  padding: 0;
-  margin: 0;
+
+* {
+    padding: 0;
+    margin: 0;
 }
-.base{
-  @apply text-base font-medium;
+
+@layer utilities {
+    @variants responsive {
+        .eend-container {
+            width: 1280px;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        .eend-container.small {
+            width: 1140px;
+        }
+    }
 }
 ::selection {
-  background: rgba(139, 144, 255, 0.87);
-  color: white;
+    background: rgba(139, 144, 255, 0.87);
+    color: white;
 }
+
 /*iconfont svg default class*/
 .icon {
-  width: 1em; height: 1em;
-  vertical-align: -0.15em;
-  fill: currentColor;
-  overflow: hidden;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
 }

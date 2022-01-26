@@ -1,6 +1,6 @@
 <template>
-  <div class="banner w-full min-w-1300 h-banner mt-24 mb-28 bg-gray-300 relative overflow-hidden">
-    <div class="banner-content-container eend-container w-full h-banner flex items-center">
+  <div class="banner w-full xl:min-w-1300 h-banner mt-24 mb-28 bg-gray-300 relative overflow-hidden">
+    <div class="banner-content-container xl:eend-container max-md:w-full h-banner flex items-center max-md:justify-center">
       <div class="banner-content z-1">
         <div class="banner-title banner-font text-7xl text-gray-800">极束网络科技工作室</div>
         <div class="pt-14 pb-14 banner-font text-4xl text-gray-700">开放、合作、共赢</div>

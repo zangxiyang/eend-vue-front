@@ -1,5 +1,6 @@
 <template>
-  <div class="eend-card overflow-hidden rounded-lg bg-gray-100 p-7 box-border cursor-pointer mr-20">
+  <div class="eend-card xl:xl-w overflow-hidden rounded-lg bg-gray-100 p-7 box-border cursor-pointer
+  xl:mr-20 max-md:mt-10 max-md:first:mt-0 max-md:w-full max-md:ml-10 max-md:mr-10">
     <div class="top-icon mb-3">
       <slot name="icon"/>
     </div>
@@ -20,10 +21,17 @@ const props = defineProps<{
 </script>
 
 <style lang="scss" scoped>
+@layer utilities {
+  @variants responsive{
+    .eend-card{
+      &.xl-w{
+        width: 256px;
+      }
+    }
+  }
+}
 .eend-card {
-  width: 256px;
   height: 170px;
-
   .top-icon {
     height: 35px;
   }

@@ -14,6 +14,9 @@ module.exports = {
       },
       colors:{
         'footer-gray': '#f7f8fa'
+      },
+      screens:{
+        'max-md':{'max': '767px'}
       }
     },
     zIndex:{
@@ -31,4 +34,9 @@ module.exports = {
     },
   },
   plugins: [],
+  variants:{
+    extend: {
+      margin: ['first'],
+    }
+  }
 }

@@ -4,7 +4,7 @@
       title="丰富的解决方案"
       top-title="多应用场景"
       desc="面对多应用的场景，我们提供丰富与成熟的解决方案，面对特殊场景，我们也可以通过合理的技术选型来快速构建您所需要的应用，提升项目开发效率，快速交付。">
-    <div class="card-group flex items-center mt-20">
+    <div class="card-group">
       <eend-card
           title="服务端"
           desc="基于现有的Java系生态，构建后端应用及微服务">
@@ -43,7 +43,7 @@
       title="成熟的技术栈"
       top-title="技术选型"
       desc="面对丰富多样的技术栈，我们精心挑选最合理、最高效的技术组合来构建我们的应用，加快交付效率和应用的稳定性。">
-    <div class="card-group flex items-center mt-20">
+    <div class="card-group">
       <eend-card
           title="Spring"
           desc="我们基于Spring下的全家桶生态来作为我们的后端主要技术选型">
@@ -74,7 +74,7 @@
   </home-item>
 
   <div class="bottom-other overflow-hidden">
-    <div class="eend-container h-banner flex items-center justify-center">
+    <div class="xl:eend-container max-md:w-full h-banner flex items-center justify-center">
       <div class="container-content">
         <div class="title">
           <h2 class="text-6xl font-medium select-none">
@@ -112,5 +112,9 @@ import EendCard from "@/components/EendCard/EendCard.vue";
       padding: 0 50px;
       font-size: 18px;
   }
+}
+.card-group{
+  @apply flex items-center mt-20;
+  @apply max-md:flex-col max-md:pl-5 max-md:pr-5;
 }
 </style>
