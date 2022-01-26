@@ -44,7 +44,6 @@ jobs:
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USER }}
           key: ${{ secrets.PRIVATE_KEY }}
-          port: ${{ secrets.PORT }}
           script: |
             cd /www/wwwroot/www.eendtech.com
             echo '清空当前版本'
