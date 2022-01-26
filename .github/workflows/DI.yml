@@ -2,7 +2,7 @@
 
 name: VUE3.2 EEND-FRONT FRONT END CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
@@ -41,9 +41,9 @@ jobs:
       - name: Delete before Version
         uses: cross-the-world/ssh-pipeline@master # 使用ssh链接服务器
         with:
-          host: ${{ secrets.HOST }}
-          user: ${{ secrets.USER }}
-          key: ${{ secrets.PRIVATE_KEY }}
+          host: ${{ secrets.EEND_HOST }}
+          user: ${{ secrets.EEND_USER }}
+          key: ${{ secrets.EEND_PRIVATE_KEY }}
           script: |
             cd /www/wwwroot/www.eendtech.com
             echo '清空当前版本'
@@ -53,10 +53,10 @@ jobs:
       - name: Deploy for Private
         uses: easingthemes/ssh-deploy@v2.2.11
         with:
-          REMOTE_HOST: ${{ secrets.HOST }}
-          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-          REMOTE_USER: ${{ secrets.USER }}
-          REMOTE_PORT: ${{ secrets.PORT }}
+          REMOTE_HOST: ${{ secrets.EEND_HOST }}
+          SSH_PRIVATE_KEY: ${{ secrets.EEND_PRIVATE_KEY }}
+          REMOTE_USER: ${{ secrets.EEND_USER }}
+          REMOTE_PORT: ${{ secrets.EEND_PORT }}
           TARGET: /www/wwwroot/www.eendtech.com
           SOURCE: dist/
       - run: echo '部署成功'
