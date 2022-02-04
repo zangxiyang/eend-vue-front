@@ -22,10 +22,12 @@
         </span>
       </div>
       <div class="info-item flex items-center justify-center pt-2">
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011102000136" target="_blank">
         <span class="police info max-md:none flex items-center select-none">
           <img src="@/assets/img/gongan.png" alt="公网安备" height="18" width="18">
-          <span class="ml-2">正在备案中</span>
+          <span class="ml-2">渝公网安备&nbsp;50011102000136号</span>
         </span>
+        </a>
       </div>
     </div>
 
