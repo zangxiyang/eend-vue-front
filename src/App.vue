@@ -1,4 +1,4 @@
-<template>
+<template v-cloak>
   <eend-nav-bar/>
   <main>
     <router-view/>

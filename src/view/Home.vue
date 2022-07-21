@@ -107,7 +107,7 @@ import EendCard from "@/components/EendCard/EendCard.vue";
 <style lang="scss" scoped>
 .bottom-other{
   background-color: #f8fbff;
-  ::v-deep .arco-btn-size-large{
+  ::v-deep(.arco-btn-size-large){
       height: 50px;
       padding: 0 50px;
       font-size: 18px;
