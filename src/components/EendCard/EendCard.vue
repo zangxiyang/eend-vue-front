@@ -18,6 +18,7 @@ const props = defineProps<{
   title: string,
   desc: string
 }>();
+const emits = defineEmits(['test-func'])
 </script>
 
 <style lang="scss" scoped>
